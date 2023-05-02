@@ -16,3 +16,24 @@
  * 5. Set the provider
  * 
  */
+
+
+/** Hosting
+ * One time per pc
+ * 1. npm install -g firebase-tools
+ * 2. firebase login
+ * 
+ * For each project one time
+ * 1. firebase init
+ * 2. procced
+ * 3. hosting: firebase (up and down arrow) use space bar to select
+ * 4. Existing project
+ * 5. Select the project carefully
+ * 6. Which project as public directory: dist(using vite)
+ * 7. single page application: yes
+ * 8. continous deployment: no
+ * 
+ * For every time deploy
+ * 1. npm run build
+ * 2. firebase deploy
+ */
